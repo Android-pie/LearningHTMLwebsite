@@ -1,2 +1,2 @@
 # LearningHTMLwebsite
-A website for learning 
+A website for learning with inline CSS
