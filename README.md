@@ -15,3 +15,8 @@ Learning about how to use HTML
 
 ### Author
 Pushkar Talwar
+
+### 50-word Description
+This website is used to demonstrate how to build a webpage, and then how to build a website using only HTML and inline CSS. Emphasized will be hyperlinks, HTML Tags for formatting
+
+#### 50-word about me and about my career plans
