@@ -4,7 +4,7 @@
 
     <!-- Used by keyboard -->
     <meta charset="utf-8">
-    <title>Child Template Webpage</title>
+    <title>DIVs to view semantic or HTML tags, in H1 7 viewport</title>
 
     <!-- Used by Browser or Google Search -->
     <meta name="author" content="Pushkar Talwar">
@@ -23,29 +23,24 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
+
+    <style>
+    /* this is a style comment */
+    div {border: thin dotted red;}
+    </style>
   </head>
   <body>
-    <header><h1>Header Title</h1></header>
-      <nav><h1>Navigation</h1></nav>
-      <aside><p>This is the aside space.</p></aside>
+    <div><header><div><h1>DIVs to view semantic or HTML tags</h1></div></header></div>
+    <div><nav><h1>Navigation in H1, no viewport</h1></nav></div>
+    <aside><p>This is the aside space in p-tags, no viewport.</p></aside>
+    <div>
       <section>
-        <h3>Section 1</h3>
-        <article>
-          <p>This is article 1 in section 1.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 1.</p>
-        </article>
-      </section>
-      <section>
-        <h3>Section 2</h3>
-        <article>
-          <p>This is article 1 in section 2.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 2.</p>
-        </article>
-      </section>
+        <div><h2>Section 1 in H2 with viewport</h2></div>
+          <div><article>
+            <div><p>This is Section / Article in p- tags with viewport</p></div>
+          </article></div>
+    </section>
+  </div>
 
   </body>
 
