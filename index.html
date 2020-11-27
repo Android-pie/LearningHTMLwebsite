@@ -4,6 +4,7 @@
 
     <!-- Used by keyboard -->
     <meta charset="utf-8">
+
     <title>Learning HTML</title>
 
     <!-- Used by Browser or Google Search -->
@@ -23,15 +24,24 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
+
+    <style> div {border: thin dotted red;} </style>
+
   </head>
   <body>
-    <header style="font-size:2.5vw"><h1>Learning HTML, Splash Page</h1></header>
+    <div><header style="font-size:5.5vw"><h1>Learning HTML, Splash Page</h1></header></div>
+    <div>
       <nav style="font-size:1.3vw"><h1>Navigation</h1></nav>
+    </div>
+    <div>
       <aside><p>This is the aside space.</p></aside>
+    </div>
+    <div>
       <section>
-        <h3>Section 1</h3>
+        <h3 style="font-size:2.5vw">Section 1</h3>
         <article>
           <p style="font-size:1.5vw">Here are hyperlinks to Experiement Pages:</p>
+          <!-- See the html .txt document for a summary-->
           <br>
           <ol style="font-size:0.8vw" type="A">
             <li> Meta Data Examples: <a href="childPages\Meta data.html" target="_blank">Open this in ATOM to see meta data changes :)</a>
@@ -47,17 +57,24 @@
         <article>
           <p style="font-size:1.5vw">Here are hyperlinks to Additional Information Pages:</p>
           <ul style="font-size:0.8vw">
-            <li> Lists: unordered and ordered information, <a href="Ordered and unordered lists.html" target="_blank">Click here</a>
+            <li> Lists: unordered and ordered information,
+              <a href="Ordered and unordered lists.html" target="_blank">Click here</a></li>
             <li> Example #1,
+              <a></a></li>
             <li> Example #2
+              <a></a></li>
             <li> Hyperlinks and Images Examples
+              <a></a></li>
             <li> Images: an advanced lesson on mapping
+              <a></a></li>
             <li> Example 2-Column Layout using flexbox
+              <a></a></li>
             <li> Example 3-Column Layout for Semantic body Tags using flexbox
+              <a></a></li>
           </ul>
         </article>
       </section>
-
+    <div>
   </body>
 
   <footer>
@@ -71,6 +88,7 @@
       </em>
     </p>
     <p style="font-size:0.7vw">&copy Pushkar Talwar, powered by Anroid-pie in GitHub</p>
+
   </footer>
 
 </html>
