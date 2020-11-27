@@ -4,7 +4,7 @@
 
     <!-- Used by keyboard -->
     <meta charset="utf-8">
-    <title>Child Template Webpage</title>
+    <title>Flexbox Webpage</title>
 
     <!-- Used by Browser or Google Search -->
     <meta name="author" content="Pushkar Talwar">
@@ -22,29 +22,80 @@
     <!-- Use this when refreshes are needed -->
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-<style>
-  *{
-    box-sizing: border-box;
-  }
+  <style>
+    *{
+      box-sizing: border-box;
+    }
 
-  .header {
-    /* border: 1px solid red; */
-    padding: 15px;
-  }
+    .header {
+      /* border: 1px solid red; */
+      padding: 15px;
+    }
 
-  .menu{
-    width: 25%
-    float: left;
-    padding: 15px;
-  }
+    .menu{
+      width: 25%
+      float: left;
+      padding: 15px;
+    }
 
-  .main{
-    width: 75%
-    float: left;
-    padding: 15px;
-  }
+    .main{
+      width: 50%
+      float: left;
+      padding: 15px;
+    }
 
+    .aside{
+      width: 25%
+      float: left;
+      padding: 15px;
+    }
 
-</style>
+  </style>
+
+  <body>
+    <div class="header">
+      <header style="font-size:4.5vw"><h1>A Website for Learning HTML, Splash Page</h1></header>
+    <div class="menu">
+      <nav style="font-size:1.3vw"><h1>Navigation</h1></nav>
+    <div class="main">
+      <section>
+        <h3 style="font-size:2.5vw">Section 1</h3>
+        <article>
+          <p style="font-size:1.5vw">Here are hyperlinks to Experiement Pages:</p>
+          <!-- See the html .txt document for a summary-->
+          <br>
+          <ol style="font-size:0.8vw" type="A">
+            <li> Meta Data Examples: <a href="childPages\Meta data.html" target="_blank">Open this in ATOM to see meta data</a>
+            <li> Footer blockquote examplar: <a href="childPages\childTemplate.html" target="_blank">Click here</a>
+            <li> Template examplar:  <a href="childPages\childTemplate.html" target="_blank">Click here</a>
+            <li> Heading and Paragrph tags: <a href="childPages\Exp H1-H6 P.html" target="_blank">Click here</a>
+            <li> Subscript and Superscript Tags: <a href="childPages\Exp Sub and Superscript.html" target="_blank">Click here</a>
+            <li> Image lesson: <a href="Images\Images lesson.html" target="_blank">Click here</a>
+            <li> Laying out DIVs (using HTML boilerplate) <a href="childPages\Exp DIVs.html" target="_blank">Click here</a>
+            <li> What this index page might look like with Flexbox <a href="childPages\Testing.html" target="_blank">Click here</a>
+          </ol>
+        </article>
+        <article>
+          <p style="font-size:1.5vw">Here are hyperlinks to Additional Information Pages:</p>
+          <ul style="font-size:0.8vw">
+            <li> Lists: unordered and ordered information,
+              <a href="Ordered and unordered lists.html" target="_blank">Click here</a></li>
+            <li> Example #1,
+              <a></a></li>
+            <li> Example #2
+              <a></a></li>
+            <li> Hyperlinks and Images Examples
+              <a></a></li>
+            <li> Images: an advanced lesson on mapping
+              <a></a></li>
+            <li> Example 2-Column Layout using flexbox
+              <a></a></li>
+            <li> Example 3-Column Layout for Semantic body Tags using flexbox
+              <a></a></li>
+          </ul>
+        </article>
+    <div class="aside">
+      <aside><p>This is the aside space.</p></aside>
+
 
 </html>
