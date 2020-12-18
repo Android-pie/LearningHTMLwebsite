@@ -13,16 +13,16 @@ void setup() {
   size(600, 400);
   //Populating varibles
   populating_varibles();
-  
-    rect(FaceSquareX, FaceSquareY, FaceSquareSide, FaceSquareSide);
-    fill(yellow);
-    ellipse(FaceX, faceY, FaceDiameter, FaceDiameter);
-    /*
+
+  rect(FaceSquareX, FaceSquareY, FaceSquareSide, FaceSquareSide);
+  fill(yellow);
+  ellipse(FaceX, faceY, FaceDiameter, FaceDiameter);
+  /*
     //the measles
-    ellipse(measlesX, measlesY, measlesdiameter, measlesdiameter);
-    //
-    */
-    //
+   ellipse(measlesX, measlesY, measlesdiameter, measlesdiameter);
+   //
+   */
+  //
 } //End setup
 
 void draw() {
@@ -46,7 +46,6 @@ void draw() {
   strokeWeight(mouththick);
   line(mouthX1, mouthY1, mouthX2, mouthY2);
   line(mouthX3, mouthY3, mouthX4, mouthY4);
- 
 } //End draw
 
 void keyPressed() {
